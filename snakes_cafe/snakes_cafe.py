@@ -52,7 +52,7 @@ while userInput != "quit":
                 print("{} order of {} have been added to your meal".format(
                     menuList[i], i))
     else :
-        print("this order not in our menu please try again we work to add it")
+        print("this order not in our menu  we work to add it, please try again ask for another meal")
         menuList[userInput]=0
         # print("{} order of {} we have been added to your meal".format(
         #             menuList[userInput], userInput))
